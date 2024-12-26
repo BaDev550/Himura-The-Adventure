@@ -7,15 +7,12 @@
       "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\game_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\entity_component_system\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\game_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\render_engine\\render_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\sprite_renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\entity_component_system\\sprite_renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,43 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "vector",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
-              "ViewState": "AgIAAPoCAAAAAAAAAADgvwYDAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-26T20:43:45.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "render_engine.cpp",
-              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp",
-              "RelativeDocumentMoniker": "src\\render_engine\\render_engine.cpp",
-              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp",
-              "RelativeToolTip": "src\\render_engine\\render_engine.cpp",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDgAAAARAAAAAAAAAA==",
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\GameObject.cpp",
+              "RelativeDocumentMoniker": "src\\entity_component_system\\GameObject.cpp",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\GameObject.cpp",
+              "RelativeToolTip": "src\\entity_component_system\\GameObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-26T19:53:30.884Z",
+              "WhenOpened": "2024-12-26T23:31:06.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "game_engine.h",
-              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h",
-              "RelativeDocumentMoniker": "header\\game_engine.h",
-              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h",
-              "RelativeToolTip": "header\\game_engine.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-26T19:00:02.775Z",
+              "Title": "sprite_renderer.cpp",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\sprite_renderer.cpp",
+              "RelativeDocumentMoniker": "src\\entity_component_system\\sprite_renderer.cpp",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\sprite_renderer.cpp",
+              "RelativeToolTip": "src\\entity_component_system\\sprite_renderer.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T23:29:53.441Z",
               "EditorCaption": ""
             },
             {
@@ -72,7 +58,7 @@
               "RelativeDocumentMoniker": "src\\game_engine.cpp",
               "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
               "RelativeToolTip": "src\\game_engine.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-26T18:01:44.611Z",
               "EditorCaption": ""

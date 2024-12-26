@@ -20,7 +20,10 @@ bool RenderEngine::InitilizeWindow()
 	glfwMakeContextCurrent(window);
 	glfwSwapInterval(1);
 
-	if (!gladLoadGL()) { return false; }
+	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+		std::cerr << "Failed to initialize GLAD" << std::endl;
+		return false;
+	}
 	glViewport(0, 0, win_width, win_height);
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);

@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\entity_component_system\GameObject.h" />
+    <ClInclude Include="header\entity_component_system\RigidBody2D.h" />
     <ClInclude Include="header\entity_component_system\sprite_renderer.h" />
     <ClInclude Include="header\game_engine.h" />
     <ClInclude Include="header\render_engine\render_engine.h" />
@@ -159,7 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\background.png" />
+    <Image Include="resources\textures\container.jpg" />
     <Image Include="resources\textures\test.png" />
+    <Image Include="resources\textures\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

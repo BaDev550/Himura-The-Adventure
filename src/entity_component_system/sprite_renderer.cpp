@@ -28,6 +28,18 @@ void SpriteRenderer::DrawSprite(const Texture2D& texture, glm::vec2 position, gl
     glBindVertexArray(0);
 }
 
+void SpriteRenderer::DrawCollision(glm::vec2 position, glm::vec2 size, glm::vec3 color)
+{
+    glLineWidth(5.0f);
+    glColor3f(color.r, color.g, color.b);
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(position.x, position.y);
+    glVertex2f(position.x + size.x, position.y);
+    glVertex2f(position.x + size.x, position.y + size.y);
+    glVertex2f(position.x, position.y + size.y);
+    glEnd();
+}
+
 void SpriteRenderer::initRenderData()
 {
     unsigned int VBO;

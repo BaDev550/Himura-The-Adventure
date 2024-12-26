@@ -49,6 +49,9 @@
     <Filter Include="Resource Files\textures">
       <UniqueIdentifier>{d26da145-9c94-48eb-a0df-10f9f05e6149}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\game_engine\entity_component_system\rigid_body">
+      <UniqueIdentifier>{1cc842a5-daa0-4332-b3d9-5adcb0766d4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -101,6 +104,9 @@
     <ClInclude Include="header\entity_component_system\GameObject.h">
       <Filter>Header Files\game_engine\entity_component_system</Filter>
     </ClInclude>
+    <ClInclude Include="header\entity_component_system\RigidBody2D.h">
+      <Filter>Header Files\game_engine\entity_component_system\rigid_body</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\default.vs">
@@ -115,6 +121,12 @@
       <Filter>Resource Files\textures</Filter>
     </Image>
     <Image Include="resources\textures\background.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\wall.jpg">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container.jpg">
       <Filter>Resource Files\textures</Filter>
     </Image>
   </ItemGroup>
