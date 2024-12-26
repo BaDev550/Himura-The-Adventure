@@ -1,5 +1,10 @@
 #include <entity_component_system/sprite_renderer.h>
 
+SpriteRenderer::SpriteRenderer(Shader& shader)
+{
+    this->shader = shader;
+}
+
 void SpriteRenderer::DrawSprite(const Texture2D& texture, glm::vec2 position, glm::vec2 size, float rotate, glm::vec3 color)
 {
     this->shader.Use();

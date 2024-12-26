@@ -35,11 +35,17 @@ bool RenderEngine::MainRendering()
 	{
 		glfwPollEvents();
 
+		GLenum err = glGetError();
+		if (err != GL_NO_ERROR) {
+			std::cerr << "OpenGL error: " << err << std::endl;
+		}
+
 		float currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
 		lastFrame = currentFrame;
 
 		glClear(GL_COLOR_BUFFER_BIT);
+		glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 
 		BAXGameEngine->Update(deltaTime);
 		BAXGameEngine->ProcessInput(deltaTime);

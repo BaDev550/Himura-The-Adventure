@@ -1,5 +1,8 @@
 #include "ResourceManager.h"
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb/stb_image.h"
+
 std::map<std::string, Texture2D>    ResourceManager::Textures;
 std::map<std::string, Shader>       ResourceManager::Shaders;
 
@@ -20,7 +23,7 @@ Texture2D ResourceManager::LoadTexture(const char* file, bool alpha, std::string
     return Textures[name];
 }
 
-const Texture2D ResourceManager::GetTexture(const std::string name)
+Texture2D& ResourceManager::GetTexture(const std::string& name)
 {
     return Textures[name];
 }
@@ -66,7 +69,7 @@ Shader ResourceManager::loadShaderFromFile(const char* vShaderFile, const char* 
     const char* vShaderCode = vertexCode.c_str();
     const char* fShaderCode = fragmentCode.c_str();
     const char* gShaderCode = geometryCode.c_str();
-
+    
     Shader shader;
     shader.Compile(vShaderCode, fShaderCode, gShaderFile != nullptr ? gShaderCode : nullptr);
     return shader;
@@ -80,6 +83,9 @@ Texture2D ResourceManager::loadTextureFromFile(const char* file, bool alpha)
         texture.Internal_Format = GL_RGBA;
         texture.Image_Format = GL_RGBA;
     }
+    texture.Filter_Min = GL_NEAREST;
+    texture.Filter_Max = GL_NEAREST;
+
     int width, height, nrChannels;
     unsigned char* data = stbi_load(file, &width, &height, &nrChannels, 0);
     texture.Generate(width, height, data);

@@ -97,7 +97,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="resources\shaders\default.vert">
+    <None Include="resources\shaders\default.vs">
       <Filter>Resource Files\shaders</Filter>
     </None>
     <None Include="resources\shaders\default.frag">
