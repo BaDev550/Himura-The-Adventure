@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\entity_component_system\GameObject.cpp" />
     <ClCompile Include="src\entity_component_system\sprite_renderer.cpp" />
     <ClCompile Include="src\game_engine.cpp" />
     <ClCompile Include="src\glad.c" />
@@ -144,6 +145,7 @@
     <ClCompile Include="src\ResourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\entity_component_system\GameObject.h" />
     <ClInclude Include="header\entity_component_system\sprite_renderer.h" />
     <ClInclude Include="header\game_engine.h" />
     <ClInclude Include="header\render_engine\render_engine.h" />
@@ -156,6 +158,7 @@
     <None Include="resources\shaders\default.vs" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\textures\background.png" />
     <Image Include="resources\textures\test.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,9 +1,2 @@
-﻿  ResourceManager.cpp
-  sprite_renderer.cpp
-  game_engine.cpp
-  main.cpp
-  Texture.cpp
-  render_engine.cpp
-E:\GitHub\Himura-The-Adventure\src\render_engine\render_engine.cpp(43,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
+﻿  game_engine.cpp
   HimuraTheAdventure.vcxproj -> E:\GitHub\Himura-The-Adventure\bin\x64\Debug\HimuraTheAdventure.exe

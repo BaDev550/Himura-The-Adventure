@@ -20,6 +20,7 @@ Shader ResourceManager::GetShader(std::string name)
 Texture2D ResourceManager::LoadTexture(const char* file, bool alpha, std::string name)
 {
     Textures[name] = loadTextureFromFile(file, alpha);
+    std::cout << "Texture loaded the name of: " << name << " from file: " << file << std::endl;
     return Textures[name];
 }
 
@@ -82,6 +83,11 @@ Texture2D ResourceManager::loadTextureFromFile(const char* file, bool alpha)
     {
         texture.Internal_Format = GL_RGBA;
         texture.Image_Format = GL_RGBA;
+    }
+    else
+    {
+        texture.Internal_Format = GL_RGB;
+        texture.Image_Format = GL_RGB;
     }
     texture.Filter_Min = GL_NEAREST;
     texture.Filter_Max = GL_NEAREST;

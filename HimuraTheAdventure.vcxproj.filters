@@ -75,6 +75,9 @@
     <ClCompile Include="src\entity_component_system\sprite_renderer.cpp">
       <Filter>Source Files\game_engine\entity_component_system\sprite_renderer</Filter>
     </ClCompile>
+    <ClCompile Include="src\entity_component_system\GameObject.cpp">
+      <Filter>Source Files\game_engine\entity_component_system</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\render_engine\render_engine.h">
@@ -95,6 +98,9 @@
     <ClInclude Include="header\entity_component_system\sprite_renderer.h">
       <Filter>Header Files\game_engine\entity_component_system\sprite_renderer</Filter>
     </ClInclude>
+    <ClInclude Include="header\entity_component_system\GameObject.h">
+      <Filter>Header Files\game_engine\entity_component_system</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\default.vs">
@@ -106,6 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\test.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\background.png">
       <Filter>Resource Files\textures</Filter>
     </Image>
   </ItemGroup>

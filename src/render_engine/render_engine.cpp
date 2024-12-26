@@ -45,10 +45,10 @@ bool RenderEngine::MainRendering()
 		lastFrame = currentFrame;
 
 		glClear(GL_COLOR_BUFFER_BIT);
-		glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
+		glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 
 		BAXGameEngine->Update(deltaTime);
-		BAXGameEngine->ProcessInput(deltaTime);
+		BAXGameEngine->ProcessInput(deltaTime, window);
 
 		BAXGameEngine->Render();
 		glfwSwapBuffers(window);
