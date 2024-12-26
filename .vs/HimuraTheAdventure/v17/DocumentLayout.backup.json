@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "game_engine.cpp",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
+              "RelativeDocumentMoniker": "src\\game_engine.cpp",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
+              "RelativeToolTip": "src\\game_engine.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T18:01:44.611Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,22 +58,9 @@
               "RelativeDocumentMoniker": "src\\entity_component_system\\sprite_renderer.cpp",
               "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\entity_component_system\\sprite_renderer.cpp",
               "RelativeToolTip": "src\\entity_component_system\\sprite_renderer.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-26T23:29:53.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "game_engine.cpp",
-              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
-              "RelativeDocumentMoniker": "src\\game_engine.cpp",
-              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp*",
-              "RelativeToolTip": "src\\game_engine.cpp*",
-              "ViewState": "AgIAAEgAAAAAAAAAAADwv2AAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-26T18:01:44.611Z",
               "EditorCaption": ""
             }
           ]

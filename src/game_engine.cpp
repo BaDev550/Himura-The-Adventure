@@ -54,6 +54,10 @@ void GameEngine::Render()
 
 void GameEngine::ProcessInput(float dt, GLFWwindow* window)
 {
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+        glfwSetWindowShouldClose(window, true);
+    }
+
     float velocity = 500 * dt;
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
         if (Player->Position.x >= 0.0f) {
@@ -80,8 +84,11 @@ void GameEngine::ProcessInput(float dt, GLFWwindow* window)
     //        Player->rb.applyForce(glm::vec2(0.0, 10.0f * 10000)* dt);
     //    }
     //}
-    if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_H) == GLFW_PRESS) {
         Player = new GameObject(Player->Position, Player->Size, ResourceManager::GetTexture("face"), false);
+    }
+    if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) {
+        Player = new GameObject(Player->Position, Player->Size, ResourceManager::GetTexture("char"), false);
     }
 }
 
