@@ -25,6 +25,30 @@
     <Filter Include="Source Files\game_engine\render_engine">
       <UniqueIdentifier>{9fb10b9e-b32d-4ca8-b367-13c0f9873fac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\game_engine\render_engine\rendering_objects">
+      <UniqueIdentifier>{602d4574-448e-4aed-bd4f-2376f89a40cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_engine\render_engine\rendering_objects">
+      <UniqueIdentifier>{3b984359-5d4e-43f2-ba4c-8ae999b48201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{21237eac-2d30-43a5-96e7-dbdd6832e784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_engine\entity_component_system">
+      <UniqueIdentifier>{3e3df56c-8531-4a56-a9f0-d0281ff28acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_engine\entity_component_system\sprite_renderer">
+      <UniqueIdentifier>{22b642f5-8430-4063-9632-06f6bbf3d0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_engine\entity_component_system">
+      <UniqueIdentifier>{758d3aa8-b272-4fcc-bbe3-4be4693ba972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_engine\entity_component_system\sprite_renderer">
+      <UniqueIdentifier>{44f09360-87b0-4f78-b107-91d9b5c39ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{d26da145-9c94-48eb-a0df-10f9f05e6149}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -36,10 +60,53 @@
     <ClCompile Include="src\render_engine\render_engine.cpp">
       <Filter>Source Files\game_engine\render_engine</Filter>
     </ClCompile>
+    <ClCompile Include="src\game_engine.cpp">
+      <Filter>Source Files\game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_engine\Shader.cpp">
+      <Filter>Source Files\game_engine\render_engine\rendering_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_engine\Texture.cpp">
+      <Filter>Source Files\game_engine\render_engine\rendering_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>Source Files\game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity_component_system\sprite_renderer.cpp">
+      <Filter>Source Files\game_engine\entity_component_system\sprite_renderer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\render_engine\render_engine.h">
       <Filter>Header Files\game_engine\render_engine</Filter>
     </ClInclude>
+    <ClInclude Include="header\ResourceManager.h">
+      <Filter>Header Files\game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="header\game_engine.h">
+      <Filter>Header Files\game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="header\render_engine\Shader.h">
+      <Filter>Header Files\game_engine\render_engine\rendering_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="header\render_engine\Texture.h">
+      <Filter>Header Files\game_engine\render_engine\rendering_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="header\entity_component_system\sprite_renderer.h">
+      <Filter>Header Files\game_engine\entity_component_system\sprite_renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\default.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="resources\shaders\default.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\test.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>

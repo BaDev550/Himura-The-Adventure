@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\GitHub\\Himura-The-Adventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\render_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\render_engine\\render_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\render_engine\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\render_engine\\render_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\game_engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:src\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\game_engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\header\\entity_component_system\\sprite_renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|solutionrelative:header\\entity_component_system\\sprite_renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32FA712B-C64B-4804-93CA-55E194C3CA80}|HimuraTheAdventure.vcxproj|E:\\GitHub\\Himura-The-Adventure\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,43 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "render_engine.cpp",
-              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp",
-              "RelativeDocumentMoniker": "src\\render_engine\\render_engine.cpp",
-              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\render_engine\\render_engine.cpp",
-              "RelativeToolTip": "src\\render_engine\\render_engine.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-26T15:14:10.116Z",
+              "DocumentIndex": 0,
+              "Title": "Shader.h",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\Shader.h",
+              "RelativeDocumentMoniker": "header\\render_engine\\Shader.h",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\Shader.h",
+              "RelativeToolTip": "header\\render_engine\\Shader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-26T17:01:19.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "render_engine.h",
-              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\render_engine.h",
-              "RelativeDocumentMoniker": "header\\render_engine\\render_engine.h",
-              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\render_engine\\render_engine.h",
-              "RelativeToolTip": "header\\render_engine\\render_engine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "sprite_renderer.h",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\entity_component_system\\sprite_renderer.h",
+              "RelativeDocumentMoniker": "header\\entity_component_system\\sprite_renderer.h",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\entity_component_system\\sprite_renderer.h",
+              "RelativeToolTip": "header\\entity_component_system\\sprite_renderer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-26T15:12:32.544Z",
+              "WhenOpened": "2024-12-26T16:54:08.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ResourceManager.cpp",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\ResourceManager.cpp",
+              "RelativeDocumentMoniker": "src\\ResourceManager.cpp",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\ResourceManager.cpp",
+              "RelativeToolTip": "src\\ResourceManager.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T16:52:01.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourceManager.h",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\ResourceManager.h",
+              "RelativeDocumentMoniker": "header\\ResourceManager.h",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\ResourceManager.h",
+              "RelativeToolTip": "header\\ResourceManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-26T16:44:37.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "game_engine.h",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h",
+              "RelativeDocumentMoniker": "header\\game_engine.h",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\header\\game_engine.h",
+              "RelativeToolTip": "header\\game_engine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-26T16:36:48.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game_engine.cpp",
+              "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
+              "RelativeDocumentMoniker": "src\\game_engine.cpp",
+              "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\game_engine.cpp",
+              "RelativeToolTip": "src\\game_engine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T16:36:18.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "E:\\GitHub\\Himura-The-Adventure\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
               "ToolTip": "E:\\GitHub\\Himura-The-Adventure\\src\\main.cpp",
               "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-26T15:09:50.593Z",
               "EditorCaption": ""

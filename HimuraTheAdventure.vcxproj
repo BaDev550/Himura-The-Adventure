@@ -134,12 +134,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\entity_component_system\sprite_renderer.cpp" />
+    <ClCompile Include="src\game_engine.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\render_engine\render_engine.cpp" />
+    <ClCompile Include="src\render_engine\Shader.cpp" />
+    <ClCompile Include="src\render_engine\Texture.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\entity_component_system\sprite_renderer.h" />
+    <ClInclude Include="header\game_engine.h" />
     <ClInclude Include="header\render_engine\render_engine.h" />
+    <ClInclude Include="header\render_engine\Shader.h" />
+    <ClInclude Include="header\render_engine\Texture.h" />
+    <ClInclude Include="header\ResourceManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\default.frag" />
+    <None Include="resources\shaders\default.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\test.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

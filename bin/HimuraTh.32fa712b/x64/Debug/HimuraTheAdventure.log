@@ -1,2 +1,33 @@
-﻿  render_engine.cpp
-  HimuraTheAdventure.vcxproj -> E:\GitHub\Himura-The-Adventure\bin\x64\Debug\HimuraTheAdventure.exe
+﻿  sprite_renderer.cpp
+  game_engine.cpp
+  render_engine.cpp
+E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,34): error C2665: 'SpriteRenderer::SpriteRenderer': no overloaded function could convert all the argument types
+      E:\GitHub\Himura-The-Adventure\header\entity_component_system\sprite_renderer.h(21,1):
+      could be 'SpriteRenderer::SpriteRenderer(SpriteRenderer &&)'
+          E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,34):
+          'SpriteRenderer::SpriteRenderer(SpriteRenderer &&)': cannot convert argument 1 from 'Shader' to 'SpriteRenderer &&'
+              E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,61):
+              Reason: cannot convert from 'Shader' to 'SpriteRenderer'
+              E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,61):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      E:\GitHub\Himura-The-Adventure\header\entity_component_system\sprite_renderer.h(21,1):
+      or       'SpriteRenderer::SpriteRenderer(const SpriteRenderer &)'
+          E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,34):
+          'SpriteRenderer::SpriteRenderer(const SpriteRenderer &)': cannot convert argument 1 from 'Shader' to 'const SpriteRenderer &'
+              E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,61):
+              Reason: cannot convert from 'Shader' to 'const SpriteRenderer'
+              E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,61):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      E:\GitHub\Himura-The-Adventure\header\entity_component_system\sprite_renderer.h(11,2):
+      or       'SpriteRenderer::SpriteRenderer(Shader &)'
+          E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,34):
+          'SpriteRenderer::SpriteRenderer(Shader &)': cannot convert argument 1 from 'Shader' to 'Shader &'
+              E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,61):
+              A non-const reference may only be bound to an lvalue
+      E:\GitHub\Himura-The-Adventure\src\game_engine.cpp(13,34):
+      while trying to match the argument list '(Shader)'
+  
+E:\GitHub\Himura-The-Adventure\src\render_engine\render_engine.cpp(38,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  ResourceManager.cpp
+  Generating Code...

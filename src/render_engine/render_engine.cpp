@@ -1,8 +1,9 @@
 #include <render_engine/render_engine.h>
+#include <iostream>
 
 using std::cout;
 
-void RenderEngine::StartRendering()
+void RenderEngine::Init()
 {
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -21,6 +22,10 @@ bool RenderEngine::InitilizeWindow()
 
 	if (!gladLoadGL()) { return false; }
 	glViewport(0, 0, win_width, win_height);
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+	BAXGameEngine->Init();
 	return true;
 }
 
@@ -28,10 +33,19 @@ bool RenderEngine::MainRendering()
 {
 	while (!glfwWindowShouldClose(window))
 	{
+		glfwPollEvents();
+
+		float currentFrame = glfwGetTime();
+		deltaTime = currentFrame - lastFrame;
+		lastFrame = currentFrame;
+
 		glClear(GL_COLOR_BUFFER_BIT);
 
+		BAXGameEngine->Update(deltaTime);
+		BAXGameEngine->ProcessInput(deltaTime);
+
+		BAXGameEngine->Render();
 		glfwSwapBuffers(window);
-		glfwPollEvents();
 	}
 	glfwDestroyWindow(window);
 	glfwTerminate();

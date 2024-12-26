@@ -3,5 +3,5 @@
 RenderEngine BAXEngine;
 
 int main() {
-	BAXEngine.StartRendering();
+	BAXEngine.Init();
 }
